@@ -14,6 +14,10 @@ Website: https://app.huakacomic.com/zh-CN
 https://raw.githubusercontent.com/Nakami003/Fujyoshi/main/index.pb
 ```
 
-如果旧版客户端只支持 JSON 索引，可使用 `index.min.json`。添加后，在 **浏览 → 扩展** 中刷新并搜索「花咔漫画」。
+如果旧版客户端只支持 JSON 索引，可使用 `index.min.json`。添加后，在 **浏览 → 扩展** 中刷新后可搜索「花咔漫画」或「画涯漫画」。
 
 首发 APK 为已在 Mihon 真机测试的 v1.6.21。扩展使用 [Keiyoushi extensions-source](https://github.com/keiyoushi/extensions-source) 的构建框架，相关 Apache 2.0 许可见 [LICENSE](LICENSE)。
+
+### 画涯漫画
+
+首发 v1.6.1，支持热门、更新、分类筛选、搜索、章节目录和网页可直接读取的章节。需要登录或付费时，请在画涯官网按提示操作。
