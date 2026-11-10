@@ -1,4 +1,4 @@
-# Huaka Comic (花咔漫画) for Mihon
+# Fujyoshi扩展源 for Mihon
 
 Source snapshot of the Huaka Comic extension, version 1.6.21. It supports search, filters, chapter listings, and reading. Sign-in uses the site’s login page in Mihon’s WebView. The source is marked NSFW.
 
@@ -6,7 +6,7 @@ To build it, copy `src/zh/huaka` into a checkout of [Keiyoushi extensions-source
 
 Website: https://app.huakacomic.com/zh-CN
 
-## fujyoshi 扩展源
+## Fujyoshi 扩展源
 
 在 Mihon 中打开 **更多 → 设置 → 浏览 → 扩展仓库**，添加以下地址：
 
