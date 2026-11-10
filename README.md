@@ -11,7 +11,7 @@ Website: https://app.huakacomic.com/zh-CN
 在 Mihon 中打开 **更多 → 设置 → 浏览 → 扩展仓库**，添加以下地址：
 
 ```text
-https://raw.githubusercontent.com/Nakami003/huaka-mihon-source/main/index.pb
+https://raw.githubusercontent.com/Nakami003/Fujyoshi/main/index.pb
 ```
 
 如果旧版客户端只支持 JSON 索引，可使用 `index.min.json`。添加后，在 **浏览 → 扩展** 中刷新并搜索「花咔漫画」。
