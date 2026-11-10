@@ -6,7 +6,7 @@ To build it, copy `src/zh/huaka` into a checkout of [Keiyoushi extensions-source
 
 Website: https://app.huakacomic.com/zh-CN
 
-## Mihon 扩展源
+## fujyoshi 扩展源
 
 在 Mihon 中打开 **更多 → 设置 → 浏览 → 扩展仓库**，添加以下地址：
 
