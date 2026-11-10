@@ -18,6 +18,7 @@ import keiyoushi.utils.parseAs
 import kotlinx.serialization.SerialName
 import kotlinx.serialization.Serializable
 import okhttp3.FormBody
+import okhttp3.Headers
 import okhttp3.HttpUrl
 import okhttp3.HttpUrl.Companion.toHttpUrl
 import okhttp3.HttpUrl.Companion.toHttpUrlOrNull
@@ -26,6 +27,12 @@ import okhttp3.Request
 @Source
 abstract class Huaya : KeiSource() {
     override val supportsLatest = true
+
+    // The mobile site serves a different detail and chapter layout.
+    override fun Headers.Builder.configureHeaders(): Headers.Builder = set(
+        "User-Agent",
+        "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/142.0.0.0 Safari/537.36",
+    )
 
     override fun getMangaUrl(manga: SManga) = "$baseUrl${manga.url}"
 
